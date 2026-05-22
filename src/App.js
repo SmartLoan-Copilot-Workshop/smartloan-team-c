@@ -1,15 +1,7 @@
-import React from 'react';
-import './App.css';
+import LoanEligibilityPage from './pages/LoanEligibilityPage';
 
 function App() {
-  return (
-    <div className="app-container">
-      <header className="app-header">
-        <h1>Hello Smart Loan</h1>
-        <p>Welcome to the Smart Loan Application</p>
-      </header>
-    </div>
-  );
+  return <LoanEligibilityPage />;
 }
 
 export default App;
